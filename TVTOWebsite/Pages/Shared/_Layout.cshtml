@@ -2,40 +2,33 @@
 <head>
     <title></title>
     <link href="~/lib/rtlbootstrap/css/bootstrap-rtl.css" rel="stylesheet" />
+    <link href="~/lib/fontawesome/css/all.css" rel="stylesheet" />
+    <link href="~/css/site.css" rel="stylesheet" />
 </head>
 <body dir="rtl">
-    <style>
-        .banner-font{
-            font-size:x-small
-        }
-
-        .banner-container {
-            position: relative;
-            text-align: center;
-            color: white;
-        }
-
-        .banner-top-left {
-            position: absolute;
-            top: 6px;
-            left: 150px;
-        }
-
-        .banner-top-right {
-            position: absolute;
-            top: 6px;
-            right: 150px;
-        }
-
-        .banner {
-            width: 100%;
-        }
-
-    </style>
     <div class="banner-container text-white banner-font">
         <img class="banner" src="~/img/banner.jpg" alt="header">
-        <div class="banner-top-left">ورود به سایت  | مهمان </div>
-        <div class="banner-top-right">پنجشنبه 20 آبان 1400 - 05 ربيع الثاني 1443</div>
+        <div class="banner-top-left">
+            <span style="margin-left:10px">ورود به سایت  | مهمان</span>
+            <span><i class="fa fa-home"></i>&nbsp;&nbsp;&nbsp;<i class="fa fa-envelope"></i>&nbsp;&nbsp;&nbsp;<i class="fa fa-sitemap"></i></span>
+        </div>
+        <div class="banner-top-right">
+            <span>دوشنبه، 20 آبان 1400</span>
+            &nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;
+            <span> 2021 Dec 11</span>
+            &nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;
+            <span> ربیع الاول 1423 </span>
+        </div>
+        <div class="banner-bottom-left">
+            <form method="post">
+                <div class="input-group input-focus h-50">
+                    <input type="search" placeholder="جستجو در سایت" class="form-control border-left-0 search-input">
+                    <div class="input-group-prepend search-input">
+                        <span class="input-group-text bg-white"><i class="fa fa-search"></i></span>
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
 
     <div id="page-body" class="container-fluid" style="padding:0 150px 0 150px">
@@ -45,5 +38,6 @@
     @*js libs*@
     <script src="~/lib/rtlbootstrap/js/jquery-3.2.1.min.js"></script>
     <script src="~/lib/rtlbootstrap/js/bootstrap.js"></script>
+    <script src="~/lib/fontawesome/js/all.js"></script>
 </body>
 </html>
