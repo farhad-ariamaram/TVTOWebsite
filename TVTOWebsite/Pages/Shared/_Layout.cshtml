@@ -1,0 +1,49 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="~/lib/rtlbootstrap/css/bootstrap-rtl.css" rel="stylesheet" />
+</head>
+<body dir="rtl">
+    <style>
+        .banner-font{
+            font-size:x-small
+        }
+
+        .banner-container {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        .banner-top-left {
+            position: absolute;
+            top: 6px;
+            left: 150px;
+        }
+
+        .banner-top-right {
+            position: absolute;
+            top: 6px;
+            right: 150px;
+        }
+
+        .banner {
+            width: 100%;
+        }
+
+    </style>
+    <div class="banner-container text-white banner-font">
+        <img class="banner" src="~/img/banner.jpg" alt="header">
+        <div class="banner-top-left">ورود به سایت  | مهمان </div>
+        <div class="banner-top-right">پنجشنبه 20 آبان 1400 - 05 ربيع الثاني 1443</div>
+    </div>
+
+    <div id="page-body" class="container-fluid" style="padding:0 150px 0 150px">
+        @RenderBody()
+    </div>
+
+    @*js libs*@
+    <script src="~/lib/rtlbootstrap/js/jquery-3.2.1.min.js"></script>
+    <script src="~/lib/rtlbootstrap/js/bootstrap.js"></script>
+</body>
+</html>
