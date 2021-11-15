@@ -1,0 +1,98 @@
+﻿body {
+}
+.MObMain
+{
+    
+}
+ .MobMenu
+{
+    padding:4px;
+    background-color: #3E5782;
+}
+    
+     .MobMenu a 
+    {
+      color:White;
+      text-decoration:none;
+    }
+     .MobMenu a:hover
+{
+    background-color: #6483B5;
+}
+.MobMenu1
+{
+   /* float:left;*/
+    width:auto;
+      background-color: #3E5782;
+}
+.MobMenu2
+{
+    /*float:left;*/
+      background-color: #3E5782;
+}
+
+
+
+      .DLSubMenu
+{
+    padding:4px;
+    background-color: #4d90fe;
+}
+     .DLSubMenu a 
+    {
+        color:White;
+      text-decoration:none;
+    }
+     .DLSubMenu a:hover
+{
+    
+    background-color: #6B88B8;
+}
+    .MobFoter
+{
+    background-color: #999999;
+    padding-top:10px;
+    font-size:10pt;
+  
+}
+    .MobHeader
+    {
+     font-size: xx-large;
+    }
+    .newsListItems
+{
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+}
+    .newsListItems:hover
+{
+   background-color:#d9dfef;
+   
+}
+    .picListItems
+{
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+}
+.picListItems:hover
+{
+   background-color:#d9dfef;
+   
+}
+.multimediaListItems
+{
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+}
+.multimediaListItems:hover
+{
+   background-color:#d9dfef;
+   
+}
+.MobContent
+{
+   padding-bottom:10px;
+}

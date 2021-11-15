@@ -1,0 +1,32 @@
+@font-face {
+	font-family: 'Yekan';
+	src: url("../Font/YekanWeb-Regular.eot");
+	src: url("../Font/YekanWeb-Regular.eot?#iefix") format("embedded-opentype"),url("../Font/YekanWeb-Regular.woff") format("woff"),url("../Font/YekanWeb-Regular.ttf") format("truetype"),url("../Font/YekanWeb-Regular.svg#YekanWeb-Regular") format("svg");
+	font-style: normal;
+	font-weight: normal;
+	text-rendering: optimizeLegibility
+}
+
+@font-face{font-family:'YekanNumbers';
+  src:url("../Font/YekanNumbers-Regular.eot");
+  src:url("../Font/YekanNumbers-Regular.eot?#iefix") format("embedded-opentype"),
+      url("../Font/YekanNumbers-Regular.woff") format("woff"),
+      url("../Font/YekanNumbers-Regular.ttf") format("truetype"),url("../Font/YekanNumbers-Regular.svg#YekanNumbers-Regular") format("svg");font-style:normal;font-weight:normal;text-rendering:optimizeLegibility}
+      
+ @font-face {
+     font-family: 'BMitra';
+  src: url('../Font/BMitra.eot?#') format('eot'),  /* IE6–8 */
+       url('../Font/BMitra.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('../Font/BMitra.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+ @font-face {
+    font-family: 'MitraBold';
+	 src: url('../Font/WebMitraBold.eot');
+    src: url('../Font/WebMitraBold.eot?#iefix') format('embedded-opentype'),
+         url('../Font/WebMitraBold.woff') format('woff'),
+         url('../Font/WebMitraBold.ttf') format('truetype'),
+         url('../Font/WebMitraBold.svg#WebMitraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    unicode-range: U+0600–06FF;
+}

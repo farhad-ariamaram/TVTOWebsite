@@ -1,0 +1,145 @@
+﻿/*
+	Multimedia jQuery plugin CSS styles
+	
+*/
+.MultimediaTab
+{
+     background-image:url(../images/tab.gif);
+     background-repeat:no-repeat;
+     height:25px;
+     position:relative;
+     left:10px;
+}
+
+#divMultimediaLink1.
+{
+     width:95%;
+     text-align:right;
+     border:0px solid #ffffff;
+     margin-top:5px;
+}
+
+#Multimedia
+{
+    width:95%;
+    text-align:center;
+    border:0px solid #ffffff;
+     padding-top:12px;
+     padding-right:12px;
+     display:block;
+}
+
+#divMultimediaLink1,#divMultimediaLink2,#divMultimediaLink3
+{
+     width:95%;
+     text-align:right;
+     border:0px solid #ffffff;
+     margin-top:0px;
+	 min-height:200px;
+}
+
+#Multimedia div.title
+{
+    display:inline-table;
+    color:#542F15;
+    direction:rtl;
+    text-align:right;
+    cursor:pointer;
+    font-weight:bold;
+    
+}
+
+#Multimedia div.title1
+{
+    display:inline-table;
+    color:#542F15;
+    direction:rtl;
+    text-align:center;
+    cursor:pointer;
+     font-weight:normal;
+     width:65px;
+     position:relative;
+     bottom:5px;
+     font-family:Tahoma;
+     font-size:8pt
+    
+}
+#MultimediaLink2
+{
+position:relative;
+right:5px
+}
+#MultimediaLink3
+{
+position:relative;
+right:5px
+}
+#MultimediaLink1
+{
+position:relative;
+left:5px
+}
+.MultimediaLink1
+{
+    /*background-color:#D2B48C;
+    color:#542F15 !important;
+    padding:5px 8px;*/
+    
+}
+
+.MultimediaLinkOver
+{
+    
+}
+
+.DiscPicImage
+{
+	
+	overflow:hidden;
+	margin-top:0px;
+	text-align:center;
+	margin-right:3px
+}
+.DiscPicImage img
+{
+	
+
+
+}
+.mL10{margin-left:0px; text-align:justify;direction:rtl;}
+.mR10{padding:5px;line-height:1.5}
+.lnH18{line-height:1.5;padding:0px;font-family:Tahoma;font-size:8pt;direction:rtl;font-weight:bold;color:#2b2b2b;}
+.lnH18:hover{color:#820000;}
+.MultimediaHolder
+{
+    padding-top:0px;
+    margin-right:5px;
+}
+.archive
+{
+    position:relative;
+    text-align:left;
+    font-family:Tahoma;
+    font-weight:bold;
+    font-size:8pt;
+    color:#2b2b2b;
+    padding:5px 0px 5px 0px;
+    cursor:pointer;
+	margin:0 0 0 0
+}
+.archive a
+{
+    font-family:Tahoma;
+    font-weight:bold;
+    font-size:8pt;
+    color:#2b2b2b;
+    cursor:pointer;
+}
+.archive a:hover
+{
+    font-family:Tahoma;
+    font-weight:bold;
+    font-size:8pt;
+    color:#820000;
+    cursor:pointer;
+}

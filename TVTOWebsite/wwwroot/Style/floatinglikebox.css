@@ -1,0 +1,53 @@
+﻿.floatinglikebox {
+	background: url("../images/face.png") no-repeat scroll left center transparent !important;
+	display: block;
+	float: right;
+	height: 270px;
+	padding: 0 5px 0 40px;
+	width: 245px;
+	z-index: 99999;
+	position: fixed;
+	right: -250px;
+	top: 10%;
+}
+.floatinglikebox div {
+	border: none;
+	position: relative;
+	display: block;
+}
+.floatinglikebox span {
+	bottom: 10px;
+	font: 10px tahoma, verdana, arial, sans-serif;
+	position: absolute;
+	right: 6px;
+	text-align: right;
+	z-index: 99999;
+}
+.floatinglikebox span a {
+	color: #808080;
+	text-decoration: none;
+}
+.floatinglikebox span a:hover {
+	text-decoration: underline;
+}
+.tehtbox {
+	background: url(../images/twit.png) no-repeat scroll left center transparent !important;
+	float: right;
+	height: 250px;
+	width: 230px;
+	z-index: 99999;
+	position: fixed;
+	right: -235px;
+	top: 30%;
+	padding: 0 5px 0 40px;
+}
+.tehtbox div {
+	margin-right: -8px;
+	border: 3px solid #00bef6;
+	background: #fafafa;
+	padding: 0;
+}
+.tehtbox a {
+	font-size: 10px;
+	margin-left: 40px;
+}

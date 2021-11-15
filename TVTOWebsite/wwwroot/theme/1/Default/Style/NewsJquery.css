@@ -1,0 +1,148 @@
+﻿.NewsJqueryArchive
+{
+    color:#333333;
+    font-family:MitraBold,Yekan,YekanNumbers,Tahoma;
+    font-size:12px;
+    padding-top:5px;
+}
+#blk-content {
+	height:240px;
+	/*background-color: #ffffff;*/
+	background-color: Transparent;
+	overflow: hidden;
+	font-family: Tahoma;
+	font-size: 8pt;
+	text-align: right;
+	direction:rtl;
+
+}
+/*second css */ /*Slider & topnews css */
+#topnews {
+	width:100%;
+	height: 194px;
+	/*background: transparent url('image/timg.png') no-repeat scroll left top;*/
+	margin:5px 0 0 5px;
+	float: right;
+	
+	position: relative;
+	
+
+}
+
+.slider{
+	position:relative;
+	width: 100%;
+	height: 185px;
+}
+.slider ul {
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+}
+
+.slider li {
+	position: absolute;	
+}
+.topnews-text {
+	color:#5f5f5f;
+	width:50%;
+	text-align:justify;
+	position:absolute;
+	right:230px;
+	top:55px;
+	line-height:1.5;
+	font-family:BMitra,Yekan,YekanNumbers,tahoma;
+	font-size:15px;
+}
+.topnews-subtitle {
+	color:#5f5f5f;
+	width:76%;
+	text-align:justify;
+	position:absolute;
+	right:210px;
+	top:0px;
+	line-height:1.5;
+}
+.topnews-title{
+	position:absolute;
+	right:210px;
+	top:8px;
+	width:310px;
+	overflow:hidden;
+	height:55px;
+	line-height:1.5;
+	
+}
+.topnews-img h1 {
+	/*font-family: "Times New Roman", Times, serif;*/
+	font-family:MitraBold,Yekan,YekanNumbers,Tahoma;
+
+	font-size: 15px;
+	color: #005ead;
+	padding: 0px 20px 0 0;
+	font-weight:normal;
+
+}
+
+.topnews-img a {
+	color: #005ead;
+	text-decoration: none;
+}
+
+.topnews-img a:hover {
+	color: #820000;
+}
+
+.topnews-img {
+	position: relative;
+	width: 100%;
+	right:0px;
+	
+	overflow:hidden;
+
+}
+
+.topnews-img img {
+	margin-top:0px;
+	border:solid 1px #AFAFAF;
+	}
+
+
+.topnews-control {
+	height: 15px;
+	position: absolute;
+	width: 95%;
+	left: 10px;
+	top: 195px;
+	padding-top:10px;
+}
+
+.topnews-control img {
+	float: left;
+	margin-right: 2px;
+	cursor: pointer;
+}
+
+
+.redtop{
+     position:Absolute ;
+     /*background-position:left top;*/
+     vertical-align: bottom;
+     /*background-image: url('');*/ 
+     background-repeat: no-repeat;
+     padding-top:0px;
+     /*margin-left:100px;*/
+     margin-top:0px;
+     width:98%;
+     height:24px;
+     color:white;
+     font-family:Tahoma;
+     font-size:10pt;
+     text-align:left;
+     padding-left:28px;
+}
+
+.redtop img{
+     
+     padding-left:0px;
+}

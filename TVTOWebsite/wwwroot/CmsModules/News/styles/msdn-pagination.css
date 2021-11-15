@@ -1,0 +1,6 @@
+﻿ul.msdn-pagination {list-style-type:none;font-family:Verdana,Tahoma,Arial,Helvetica,Sans-Serif;font-size: 12pxcolor:#313031;direction:ltr;}
+ul.msdn-pagination li {list-style-type:none; padding: 2px;margin: 2px;text-align:center;float:left;}
+ul.msdn-pagination a {color:#0030ce;text-decoration:none;border:1px solid #b7d8ee;}
+ul.msdn-pagination a:hover, ul.msdn-pagination a:active {color:#0066a7;border:1px solid #b7d8ee;background-color:#d2eaf6;}
+ul.msdn-pagination li.current {list-style-type:none; border:1px solid #b7d8ee;font-weight:bold;color:#444444;background-color:#d2eaf6;}
+ul.msdn-pagination li.disabled {display:none;}
