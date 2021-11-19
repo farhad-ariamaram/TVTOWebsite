@@ -21,11 +21,11 @@ namespace BMSWebApp.Pages
 
         public IActionResult OnGet()
         {
-            var uid = HttpContext.Session.GetString("uid");
-            if (uid == null)
-            {
-                return RedirectToPage("Login", new { area = "Admin" });
-            }
+            //var uid = HttpContext.Session.GetString("uid");
+            //if (uid == null)
+            //{
+            //    return RedirectToPage("Login", new { area = "Admin" });
+            //}
             return Page();
         }
     }

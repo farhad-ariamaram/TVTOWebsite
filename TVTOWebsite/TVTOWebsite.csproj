@@ -13,6 +13,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Areas\Admin\Pages\Manage\Menu\" />
+    <Folder Include="Areas\Admin\Pages\Manage\Multimedia\" />
+    <Folder Include="Areas\Admin\Pages\Manage\Poster\" />
+    <Folder Include="Areas\Admin\Pages\Manage\Slider\" />
     <Folder Include="wwwroot\Uploads\elmikarbordi\" />
     <Folder Include="wwwroot\Uploads\fanihefei\" />
   </ItemGroup>
@@ -29,6 +33,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
     <PackageReference Include="System.Drawing.Common" Version="5.0.2" />
   </ItemGroup>
 

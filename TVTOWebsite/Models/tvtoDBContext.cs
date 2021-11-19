@@ -41,6 +41,8 @@ namespace TVTOWebsite.Models
 
                 entity.Property(e => e.Abstract).HasMaxLength(1000);
 
+                entity.Property(e => e.Category).HasMaxLength(200);
+
                 entity.Property(e => e.Content1)
                     .HasColumnType("ntext")
                     .HasColumnName("Content");

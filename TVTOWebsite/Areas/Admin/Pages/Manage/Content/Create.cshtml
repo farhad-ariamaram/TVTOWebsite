@@ -1,0 +1,51 @@
+﻿@page
+@model TVTOWebsite.Admin.Manage.Content1.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h4>ایجاد مطلب جدید</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <span asp-validation-for="content.Content1" class="text-danger d-inline-block"></span>
+                <label class="control-label">متن</label>
+                <textarea asp-for="content.Content1" class="form-control"></textarea>
+            </div>
+            <div class="form-group">
+                <span asp-validation-for="content.Title" class="text-danger"></span>
+                <label class="control-label">عنوان</label>
+                <input asp-for="content.Title" class="form-control" />
+            </div>
+            <div class="form-group">
+                <span asp-validation-for="content.Abstract" class="text-danger"></span>
+                <label class="control-label">چکیده</label>
+                <input asp-for="content.Abstract" class="form-control" />
+            </div>
+            <div class="form-group">
+                <span asp-validation-for="content.Picture" class="text-danger"></span>
+                <label class="control-label">عکس</label>
+                <input asp-for="content.Picture" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">برگزیده؟</label>
+                <input asp-for="content.IsSelected" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">دسته بندی</label>
+                <select asp-for="content.Category" class="form-control" >
+                    <option>اخبار و اطلاعیه</option>
+                    <option>پژوهشی</option>
+                    <option>فرهنگی</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="افزودن" class="btn btn-primary m-2" />
+            </div>
+        </form>
+    </div>
+</div>

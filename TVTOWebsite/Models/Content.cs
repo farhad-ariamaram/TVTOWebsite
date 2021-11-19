@@ -14,5 +14,6 @@ namespace TVTOWebsite.Models
         public string Abstract { get; set; }
         public string Picture { get; set; }
         public bool IsSelected { get; set; }
+        public string Category { get; set; }
     }
 }
