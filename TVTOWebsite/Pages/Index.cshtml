@@ -41,7 +41,7 @@
                                         @foreach (var item in @Model.sliderFiles)
                                         {
                                             <li>
-                                                <a href="#" target="_self">
+                                                <a href="/Content/@(item.Split('.')[0])" target="_self">
                                                     <img src="~/Uploads/Slider/@(item)" alt="102">
                                                 </a>
                                             </li>
@@ -110,19 +110,19 @@
                                                     <table align="center" border="0" cellpadding="0" cellspacing="1" class="link-right" style="margin-right:1px; text-align:center; width:100%">
                                                         <tbody>
                                                             <tr>
-                                                                <td align="center"><a href="http://portaltvto.com"><img alt="" src="~/theme/1/Default/Sidemenu/dorehaye-amoozeshi.jpg" style="height:30px; width:212px" /></a></td>
+                                                                <td align="center"><a href="/MenuContent/1"><img alt="" src="~/theme/1/Default/Sidemenu/dorehaye-amoozeshi.jpg" style="height:30px; width:212px" /></a></td>
                                                             </tr>
                                                             <tr>
-                                                                <td align="center"><a href="/?pageid=268"><img src="~/theme/1/Default/Sidemenu/estelam-govahinameh.jpg" style="height:30px; width:212px" /></a></td>
+                                                                <td align="center"><a href="/MenuContent/2"><img src="~/theme/1/Default/Sidemenu/estelam-govahinameh.jpg" style="height:30px; width:212px" /></a></td>
                                                             </tr>
                                                             <tr>
-                                                                <td align="center"><a href="/?pageid=274"><img src="~/theme/1/Default/Sidemenu/natayej-azmoon.jpg" style="height:30px; width:212px" /></a></td>
+                                                                <td align="center"><a href="/MenuContent/3"><img src="~/theme/1/Default/Sidemenu/natayej-azmoon.jpg" style="height:30px; width:212px" /></a></td>
                                                             </tr>
                                                             <tr>
-                                                                <td align="center"><a href="/?pageid=269"><img src="~/theme/1/Default/Sidemenu/nazarsanji.jpg" style="height:30px; width:212px" /></a></td>
+                                                                <td align="center"><a href="/MenuContent/4"><img src="~/theme/1/Default/Sidemenu/nazarsanji.jpg" style="height:30px; width:212px" /></a></td>
                                                             </tr>
                                                             <tr>
-                                                                <td align="center"><a href="http://pay.portaltvto.com/pay/bmi/shop#"><img src="~/theme/1/Default/Sidemenu/zamanbandi-azmooonha.jpg" style="height:30px; width:212px" /></a></td>
+                                                                <td align="center"><a href="/MenuContent/5"><img src="~/theme/1/Default/Sidemenu/zamanbandi-azmooonha.jpg" style="height:30px; width:212px" /></a></td>
                                                             </tr>
                                                         </tbody>
                                                     </table>
@@ -166,15 +166,13 @@
                 <td colspan="3">
                     <table cellpadding="0" cellspacing="0" style="width: 100%;">
                         <tr>
-                            <td class="panelheadLeft">
-                            </td>
+                            <td class="panelheadLeft"></td>
                             <td class="panelhead">
                                 <div>
                                     &nbsp;<span id="ctl28_ctl03_lblTitle">پوسترها</span>
                                 </div>
                             </td>
-                            <td class="panelheadRight">
-                            </td>
+                            <td class="panelheadRight"></td>
                         </tr>
                     </table>
                 </td>
@@ -188,11 +186,10 @@
                             <td class="panelbody">
                                 <div class="box_skitter box_skitter2">
                                     <ul id="skitter_images">
-
                                         @foreach (var item in @Model.posterFiles)
                                         {
                                             <li>
-                                                <a href="#" target="_self">
+                                                <a href="/Content/@(item.Split('.')[0])" target="_self">
                                                     <img src="~/Uploads/Poster/@(item)" alt="@(item)">
                                                 </a>
                                             </li>
@@ -254,7 +251,7 @@
                                         <td class="panelbody" style="line-height: 1.5">
                                             <div>
                                                 <span id="ctl28_ctl04_lblContent">
-                                                    <div style="text-align: center;"><a href="http://eatvto.ir/?pageid=307"><span style="font-size:14px;"><strong>دریافت کارت آزمون</strong></span></a></div>
+                                                    <div style="text-align: center;"><a href="/MenuContent/7"><span style="font-size:14px;"><strong>دریافت کارت آزمون</strong></span></a></div>
                                                 </span>
                                             </div>
                                         </td>
@@ -315,7 +312,7 @@
                                             <div>
                                                 <span id="ctl28_ctl05_lblContent">
                                                     <div align="center">
-                                                        <span style="font-size:14px;"><strong><a href="http://eatvto.ir/uploads/fanihefei/">اعلام نتیجه آزمون</a></strong></span><br />
+                                                        <span style="font-size:14px;"><strong><a href="/MenuContent/8">اعلام نتیجه آزمون</a></strong></span><br />
                                                     </div>
                                                 </span>
                                             </div>
@@ -375,7 +372,7 @@
                                         <td class="panelbody" style="line-height: 1.5">
                                             <div>
                                                 <span id="ctl28_ctl06_lblContent">
-                                                    <div style="text-align: center;"><span style="font-size:13px;"><a href="/?pageid=281"><strong>راهنمای آزمون مجدد تئوری</strong></a></span></div>
+                                                    <div style="text-align: center;"><span style="font-size:13px;"><a href="/MenuContent/9"><strong>راهنمای آزمون مجدد تئوری</strong></a></span></div>
                                                 </span>
                                             </div>
                                         </td>
@@ -434,7 +431,7 @@
                                         <td class="panelbody" style="line-height: 1.5">
                                             <div>
                                                 <span id="ctl28_ctl07_lblContent">
-                                                    <div style="text-align: center;"><span style="font-size:14px;"><a href="/Uploads/User/4/%d8%b3%d8%a7%d9%84%d9%86%d8%a7%d9%85%d9%87%20%d8%a2%d9%85%d8%a7%d8%b1%db%8c%20%d8%a7%d8%af%d8%a7%d8%b1%d9%87%20%da%a9%d9%84%20%d8%a2%d9%85%d9%88%d8%b2%d8%b4%20%d9%81%d9%86%db%8c%20%d9%88%20%d8%ad%d8%b1%d9%81%d9%87%20%d8%a7%db%8c%20%d8%a2%d8%b0%d8%b1%d8%a8%d8%a7%db%8c%d8%ac%d8%a7%d9%86%20%d8%b4%d8%b1%d9%82%db%8c%20%d8%af%d8%b1%20%d8%b3%d8%a7%d9%84%201399.pdf" target="_blank"><b>راهنمای آزمون مجدد عملی</b></a></span></div>
+                                                    <div style="text-align: center;"><span style="font-size:14px;"><a href="/MenuContent/10" target="_blank"><b>راهنمای آزمون مجدد عملی</b></a></span></div>
                                                 </span>
                                             </div>
                                         </td>
@@ -493,7 +490,7 @@
                                         <td class="panelbody" style="line-height: 1.5">
                                             <div>
                                                 <span id="ctl28_ctl08_lblContent">
-                                                    <div style="text-align: center;"><span style="font-size:14px;"><a href="https://survey.porsline.ir/s/MOmojKZ/" target="_blank"><strong>آدرس مراکز برگزاری آزمون ها</strong></a></span></div>
+                                                    <div style="text-align: center;"><span style="font-size:14px;"><a href="/MenuContent/11" target="_blank"><strong>آدرس مراکز برگزاری آزمون ها</strong></a></span></div>
                                                 </span>
                                             </div>
                                         </td>
@@ -552,7 +549,7 @@
                                         <td class="panelbody" style="line-height: 1.5">
                                             <div>
                                                 <span id="ctl28_ctl09_lblContent">
-                                                    <div style="text-align: center;"><strong><a href="http://eatvto.ir/?pageid=308">پرداخت هزینه گواهینامه</a></strong></div>
+                                                    <div style="text-align: center;"><strong><a href="/MenuContent/12">پرداخت هزینه گواهینامه</a></strong></div>
                                                 </span>
                                             </div>
                                         </td>
@@ -611,7 +608,7 @@
                                         <td class="panelbody" style="line-height: 1.5">
                                             <div>
                                                 <span id="ctl28_ctl10_lblContent">
-                                                    <div style="text-align: center;"><span style="font-size:14px;"><a href="http://eatvto.ir/?pageid=289"><strong>استعلام گواهینامه</strong></a></span></div>
+                                                    <div style="text-align: center;"><span style="font-size:14px;"><a href="/MenuContent/13"><strong>استعلام گواهینامه</strong></a></span></div>
                                                 </span>
                                             </div>
                                         </td>
@@ -670,7 +667,7 @@
                                         <td class="panelbody" style="line-height: 1.5">
                                             <div>
                                                 <span id="ctl28_ctl12_lblContent">
-                                                    <div style="text-align: center;"><span style="font-size:14px;"><a href="http://pm.mcls.gov.ir/fa/samane"><strong>سامانه جامع پاسخگويي به شكايات</strong></a></span></div>
+                                                    <div style="text-align: center;"><span style="font-size:14px;"><a href="/MenuContent/14"><strong>سامانه جامع پاسخگويي به شكايات</strong></a></span></div>
                                                 </span>
                                             </div>
                                         </td>
@@ -789,7 +786,7 @@
                                         <td class="panelbody" style="line-height: 1.5">
                                             <div>
                                                 <span id="ctl28_ctl15_lblContent">
-                                                    <div style="text-align: center;"><a href="/?pageid=286"><img alt="" src="/Uploads/User/2/fazli/پوسته/0101.jpg" style="width: 200px; height: 80px;" /></a></div>
+                                                    <div style="text-align: center;"><a target="_blank" href="http://www.alvansabet.com"><img alt="" src="/Uploads/User/2/fazli/پوسته/0101.jpg" style="width: 200px; height: 80px;" /></a></div>
                                                 </span>
                                             </div>
                                         </td>
@@ -1054,12 +1051,12 @@
                                     <div style="direction: rtl;" align="center">
                                         <div class="MultimediaHolder">
                                             <div class="DiscPicImage">
-                                                <a target="_self" href="#" class="lnH18">
+                                                <a target="_self" href="/Content/@(Model.multimedium.Picture)" class="lnH18">
                                                     <img alt="Multimedia" src="~/Uploads/Multimedia/Picture/@(Model.multimedium.Picture).jpg" width="200" height="165" />
                                                 </a>
                                             </div>
                                             <div class="mR10 mL10">
-                                                <a target="_self" href="#" class="lnH18">@Model.multimedium.Text</a>
+                                                <a target="_self" href="/Content/@(Model.multimedium.Picture)" class="lnH18">@Model.multimedium.Text</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1069,13 +1066,14 @@
                                         <div class="MultimediaHolder">
                                             <div class="DiscPicImage"><img alt="Multimedia" src="~/Uploads/Multimedia/Picture/@(Model.multimedium.Picture).jpg" width="200" height="165" /></div><!-- START OF THE PLAYER EMBEDDING TO COPY-PASTE --><div id='mediaspace'>در حال بارگذاری ...</div>
                                             <script type='text/javascript'>jwplayer('mediaspace').setup({ 'flashplayer': '/CmsModules/Slider/Multimedia/player.swf', 'file': '/Uploads/Multimedia/Music/@(Model.multimedium.Music).mp3', 'controlbar': 'bottom', 'width': '200', 'height': '19' });</script><!-- END OF THE PLAYER EMBEDDING --><div class="mR10 mL10"><a target="_self" href="#" class="lnH18">@Model.multimedium.Text</a></div>
-                                        </div><div class="archive"><a target="_blank" href="#">آرشیو</a></div>
+                                        </div>
                                     </div>
-                                </div><div id="divMultimediaLink3" class="divMultimediaLink" style="display: none;">
+                                </div>
+                                <div id="divMultimediaLink3" class="divMultimediaLink" style="display: none;">
                                     <div style="direction: rtl;" align="center">
                                         <div class="MultimediaHolder">
-                                            <!-- START OF THE PLAYER EMBEDDING TO COPY-PASTE --><div id="mediaplayer">در حال بارگذاری ...</div>
-                                                                                                <script type="text/javascript">jwplayer("mediaplayer").setup({ 'flashplayer': "/CmsModules/Slider/Multimedia/player.swf", 'file': "/Uploads/Multimedia/Movie/@(Model.multimedium.Movie).mp4", 'image': "/Uploads/Multimedia/Picture/@(Model.multimedium.Picture).jpg", 'width': '200', 'height': '165', 'wmode': 'transparent', 'controlbar': 'none' });</script><!-- END OF THE PLAYER EMBEDDING --><div class="mR10 mL10"><a target="_self" href="#" class="lnH18">@Model.multimedium.Text</a></div>
+                                            <div id="mediaplayer">در حال بارگذاری ...</div>
+                                            <script type="text/javascript">jwplayer("mediaplayer").setup({ 'flashplayer': "/CmsModules/Slider/Multimedia/player.swf", 'file': "/Uploads/Multimedia/Movie/@(Model.multimedium.Movie).mp4", 'image': "/Uploads/Multimedia/Picture/@(Model.multimedium.Picture).jpg", 'width': '200', 'height': '165', 'wmode': 'transparent', 'controlbar': 'none' });</script><!-- END OF THE PLAYER EMBEDDING --><div class="mR10 mL10"><a target="_self" href="#" class="lnH18">@Model.multimedium.Text</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -1172,7 +1170,7 @@
                                         <td class="panelbody" style="line-height: 1.5">
                                             <div>
                                                 <span id="ctl28_ctl18_lblContent">
-                                                    <div style="text-align: center;"><a href="/?pageid=226" style="font-size: 9pt;"><img src="~/theme/1/Default/Sidemenu/ozviatdarkanal.jpg" width="212" border="0" height="30"></a></div>
+                                                    <div style="text-align: center;"><a href="/MenuContent/6" style="font-size: 9pt;"><img src="~/theme/1/Default/Sidemenu/ozviatdarkanal.jpg" width="212" border="0" height="30"></a></div>
                                                 </span>
                                             </div>
                                         </td>
@@ -1346,7 +1344,7 @@
                                                                                                                                                         <td>
                                                                                                                                                             <span style="float: left;" class="sitefont">
                                                                                                                                                                 <span class="News_Date" style="float: left; display: block;">
-                                                                                                                                                                    @(Model.lastTenContentList[count-1].Date)
+                                                                                                                                                                    @Model.lastTenContentList[count-1].Date.Value.GetPersianDate()
                                                                                                                                                                 </span>
                                                                                                                                                             </span>
                                                                                                                                                         </td>
@@ -1618,10 +1616,10 @@
                                                     <div class="jcarousel-clip-div">
                                                         <ul class="jcarousel-skin-tango" id="mycarousel">
                                                             <li><a href="http://www.portaltvto.com/"><img src="~/uploads/1/Cms/User/File/2/Link_New_Rotate/portal.jpg" style="height:59px; width:228px" /></a></li>
-                                                            <li><a href="http://hamayesh.irantvto.ir/"><img src="/uploads/1/Cms/User/File/2/Link_New_Rotate/email.jpg" style="height:59px; width:228px" /></a></li>
-                                                            <li><a href="http://www.portaltvto.com/mobile/mobile.php"><img src="/uploads/1/Cms/User/File/2/Link_New_Rotate/course.jpg" style="height:59px; width:228px" /></a></li>
-                                                            <li><a href="http://jazb.portaltvto.com/"><img src="/uploads/1/Cms/User/File/2/Link_New_Rotate/registeration.jpg" style="height:59px; width:228px" /></a></li>
-                                                            <li><a href="/?PageID=216"><img src="/uploads/1/Cms/User/File/2/Link_New_Rotate/location.jpg" style="height:59px; width:228px" /></a></li>
+                                                            <li><a href="tvto@alvan-uast.ir"><img src="/uploads/1/Cms/User/File/2/Link_New_Rotate/email.jpg" style="height:59px; width:228px" /></a></li>
+                                                            <li><a href="/MenuContent/1"><img src="/uploads/1/Cms/User/File/2/Link_New_Rotate/course.jpg" style="height:59px; width:228px" /></a></li>
+                                                            <li><a href="/MenuContent/25"><img src="/uploads/1/Cms/User/File/2/Link_New_Rotate/registeration.jpg" style="height:59px; width:228px" /></a></li>
+                                                            <li><a href="/MenuContent/16"><img src="/uploads/1/Cms/User/File/2/Link_New_Rotate/location.jpg" style="height:59px; width:228px" /></a></li>
                                                         </ul>
                                                     </div>
                                                 </span>
@@ -1718,25 +1716,25 @@
                                                     <div class="jcarousel-clip-div">
                                                         <ul class="jcarousel-skin-tango1" id="mycarousel1">
                                                             <li>
-                                                                <a href="http://leader.ir"><img src="/uploads/1/Cms/User/File/2/NewSite_Link_Dolati/leader.jpg" style="height:51px; width:171px" /></a>
+                                                                <a target="_blank" href="http://leader.ir"><img src="/uploads/1/Cms/User/File/2/NewSite_Link_Dolati/leader.jpg" style="height:51px; width:171px" /></a>
                                                                 <br />
-                                                                <a href="http://saamad.ir"><img src="/uploads/1/Cms/User/File/2/NewSite_Link_Dolati/samad.jpg" style="height:51px; width:171px" /></a>
+                                                                <a target="_blank" href="http://saamad.ir"><img src="/uploads/1/Cms/User/File/2/NewSite_Link_Dolati/samad.jpg" style="height:51px; width:171px" /></a>
                                                             </li>
                                                             <li>
-                                                                <a href="http://president.ir"><img src="/uploads/user/18/image/resi.png" style="height:51px; width:171px" /></a>
+                                                                <a target="_blank" href="http://president.ir"><img src="/uploads/user/18/image/resi.png" style="height:51px; width:171px" /></a>
                                                                 <br />
-                                                                <a href="http://irantvto.ir/"><img src="/uploads/1/Cms/User/File/2/NewSite_Link_Dolati/fanni.jpg" style="height:51px; width:171px" /></a>
+                                                                <a target="_blank" href="http://irantvto.ir/"><img src="/uploads/1/Cms/User/File/2/NewSite_Link_Dolati/fanni.jpg" style="height:51px; width:171px" /></a>
                                                             </li>
                                                             <li>
-                                                                <a href="http://dolat.ir"><img src="/uploads/1/Cms/User/File/2/NewSite_Link_Dolati/dolat.jpg" style="height:51px; width:171px" /></a>
+                                                                <a target="_blank" href="http://dolat.ir"><img src="/uploads/1/Cms/User/File/2/NewSite_Link_Dolati/dolat.jpg" style="height:51px; width:171px" /></a>
                                                                 <br />
-                                                                <a href="http://www.tabriz.techmart.ir/fa/"><img src="/uploads/1/Cms/User/File/2/NewSite_Link_Dolati/bazarmelli.jpg" style="height:51px; width:171px" /></a>
+                                                                <a target="_blank" href="http://www.techmart.ir/fa/"><img src="/uploads/1/Cms/User/File/2/NewSite_Link_Dolati/bazarmelli.jpg" style="height:51px; width:171px" /></a>
                                                             </li>
                                                             <li>
-                                                                <a href="http://www.2018tabriz.org"><img style="border:1px solid #ccc" src="/uploads/1/Cms/User/File/2/Link_New_Rotate/logo_white.png" style="height:102px; width:171px" /></a>
+                                                                <a target="_blank" href="http://www.alvansabet.com"><img style="border:1px solid #ccc" src="/uploads/1/Cms/User/File/2/Link_New_Rotate/logo_white.png" style="height:102px; width:171px" /></a>
                                                             </li>
-                                                            <li><a href="http://www.cyberpolice.ir/"><img src="/uploads/1/Cms/User/File/2/NewSite_Link_Dolati/fanavari1.jpg" style="height:102px; width:171px" /></a></li>
-                                                            <li><a href="http://www.bemcenter.ir/"><img src="/uploads/1/Cms/User/File/2/NewSite_Link_Dolati/da.jpg" style="height:102px; width:171px" /></a></li>
+                                                            <li><a target="_blank" href="http://www.alvan-uast.ir/"><img src="/uploads/1/Cms/User/File/2/NewSite_Link_Dolati/fanavari1.jpg" style="height:102px; width:171px" /></a></li>
+                                                            <li><a target="_blank" href="http://www.bemcenter.ir/"><img src="/uploads/1/Cms/User/File/2/NewSite_Link_Dolati/da.jpg" style="height:102px; width:171px" /></a></li>
                                                         </ul>
                                                     </div>
                                                 </span>
@@ -1784,74 +1782,6 @@
 
                             </td>
                             <td class="panelheadRight"></td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="3">
-                    <table cellpadding="0" cellspacing="0" style="width: 100%;">
-                        <tr>
-                            <td class="panelleft"></td>
-                            <td class="panelcenter">
-                                <table cellpadding="0" cellspacing="0" width="100%" dir='rtl'>
-                                    <tr>
-                                        <td class="panelbody" style="line-height: 1.5">
-
-                                            <div id="ctl28_ctl22_tblHorizontal">
-                                                <div align="center" style="width: 1000px; padding-top: 0px; padding-bottom: 5px;">
-                                                    <table dir='rtl' align="center">
-                                                        <tr>
-                                                            <td id="ctl28_ctl22_htdToday" class="sitefont">
-                                                                امروز
-                                                                :
-                                                            </td>
-
-                                                            <td id="ctl28_ctl22_htdToday1" class="sitefont">
-                                                                2165
-                                                            </td>
-
-                                                            <td id="ctl28_ctl22_htdToday2">&nbsp;&nbsp;&nbsp;&nbsp;</td>
-
-                                                            <td id="ctl28_ctl22_htdYesterday" class="sitefont">
-                                                                ديروز
-                                                                :
-                                                            </td>
-
-                                                            <td id="ctl28_ctl22_htdYesterday1" class="sitefont">
-                                                                3474
-                                                            </td>
-
-                                                            <td id="ctl28_ctl22_htdYesterday2">&nbsp;&nbsp;&nbsp;&nbsp;</td>
-
-                                                            <td id="ctl28_ctl22_htdCurrentMonth" class="sitefont">
-                                                                ماه
-                                                                :
-                                                            </td>
-
-                                                            <td id="ctl28_ctl22_htdCurrentMonth1" class="sitefont">
-                                                                112346
-                                                            </td>
-
-                                                            <td id="ctl28_ctl22_htdCurrentMonth2">&nbsp;&nbsp;&nbsp;&nbsp;</td>
-
-
-
-
-
-
-
-
-
-                                                        </tr>
-                                                    </table>
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                            <td class="panelright"></td>
                         </tr>
                     </table>
                 </td>

@@ -64,10 +64,10 @@
         <div style="width: 1000px; margin: 0 auto; height:201px;">
             <div class="Header_BG">
 
-                <div class="Header_Date">
-                    دوشنبه 24 آبان 1400
+                <div class="Header_Date" dir="rtl">
+                    <span>@DateTime.Now.GetPersianDate()</span>
                     <span>-</span>
-                    09 ربيع الثاني 1443
+                    <span dir="ltr"> @DateTime.Now.Day @DateTime.Now.GetMiladiMonthName() @DateTime.Now.Year</span>
                 </div>
                 <div style="float:left;width:500px;">
 
@@ -90,64 +90,64 @@
                 <div style="padding-right: 10px">
                     <ul id="main-menu" class="sm sm-blue">
                         <li id="Firstli" class="separate">
-                            <a class="Menu_ItemH" target="_parent" href="/?PageID=0" title="صفحه اصلی">
+                            <a class="Menu_ItemH" target="_parent" href="~/" title="صفحه اصلی">
                                 <span class="icon0"></span><span>صـــفـــحـــه اصـــلـــی</span>
                             </a>
                         </li>
                         <li>
-                            <a class="Menu_ItemH" target="_parent" href="/?PageID=2" title="ارتباط با مرکز">
+                            <a class="Menu_ItemH" target="_parent" href="#" title="ارتباط با مرکز">
                                 <span class=""></span>ارتـــبـــاط بـــا مـــرکـــز
                             </a>
                             <ul>
                                 <li class="submenu-main">
-                                    <a class="submenu-item" target="_parent" href="/?PageID=244" title="نقشه">نقشه</a>
+                                    <a class="submenu-item" target="_parent" href="/MenuContent/15" title="نقشه">نقشه</a>
                                 </li>
                                 <li class="submenu-main">
-                                    <a class="submenu-item" target="_parent" href="/?PageID=176" title="مسیرهای دسترسی">مسیرهای دسترسی</a>
+                                    <a class="submenu-item" target="_parent" href="/MenuContent/16" title="مسیرهای دسترسی">مسیرهای دسترسی</a>
                                 </li>
                             </ul>
                         </li>
                         <li>
-                            <a class="Menu_ItemH" target="_parent" href="/?PageID=8" title="فرهنگی و پژوهشی">
+                            <a class="Menu_ItemH" target="_parent" href="#" title="فرهنگی و پژوهشی">
                                 <span class=""></span>فـــرهـــنـــگی و پـــژوهـــشـــی
                             </a>
                             <ul>
                                 <li class="submenu-main">
-                                    <a class="submenu-item" width="100%" target="_parent" href="/?PageID=139" title="اطلاعیه های فرهنگی">اطلاعیه های فرهنگی</a>
+                                    <a class="submenu-item" width="100%" target="_parent" href="/MenuContent/17" title="اطلاعیه های فرهنگی">اطلاعیه های فرهنگی</a>
                                 </li>
                                 <li class="submenu-main">
-                                    <a class="submenu-item" width="100%" target="_parent" href="/?PageID=8" title="پژوهشی">پژوهشی</a>
+                                    <a class="submenu-item" width="100%" target="_parent" href="/MenuContent/18" title="پژوهشی">پژوهشی</a>
                                 </li>
                             </ul>
                         </li>
                         <li>
-                            <a class="Menu_ItemH" target="_parent" href="/?PageID=159" title="معرفی دوره ها"><span class=""></span>مـــعـــرفـــی دوره هـــا</a>
+                            <a class="Menu_ItemH" target="_parent" href="/MenuContent/19" title="معرفی دوره ها"><span class=""></span>مـــعـــرفـــی دوره هـــا</a>
                         </li>
                         <li>
-                            <a class="Menu_ItemH" target="_parent" href="/?PageID=177" title="آموزش"><span class=""></span>آمـــوزش</a>
+                            <a class="Menu_ItemH" target="_parent" href="#" title="آموزش"><span class=""></span>آمـــوزش</a>
                             <ul>
                                 <li class="submenu-main">
-                                    <a class="submenu-item" target="_parent" href="http://tvto.alvan-uast.ir/?pageid=300" title="آیین‌نامه ها">آیین‌نامه ها</a>
+                                    <a class="submenu-item" target="_parent" href="/MenuContent/20" title="آیین‌نامه ها">آیین‌نامه ها</a>
                                 </li>
                                 <li class="submenu-main">
-                                    <a class="submenu-item" target="_parent" href="/?PageID=303" title="تفاهم نامه ها">تفاهم نامه ها</a>
+                                    <a class="submenu-item" target="_parent" href="/MenuContent/21" title="تفاهم نامه ها">تفاهم نامه ها</a>
                                 </li>
                                 <li class="submenu-main">
-                                    <a class="submenu-item" target="_parent" href="http://tvto.alvan-uast.ir/?pageid=301" title="دستاورد ها">دستاورد ها</a>
+                                    <a class="submenu-item" target="_parent" href="/MenuContent/22" title="دستاورد ها">دستاورد ها</a>
                                 </li>
                             </ul>
                         </li>
                         <li>
-                            <a class="Menu_ItemH" target="_parent" href="/?PageID=191" title="اخبار و اطلاعیه ها">
+                            <a class="Menu_ItemH" target="_parent" href="/MenuContent/23" title="اخبار و اطلاعیه ها">
                                 <span class=""></span>
                                 <span>اخـــبـــار و اطـــلاعـــیـــه هـــا</span>
                             </a>
                         </li>
                         <li>
-                            <a class="Menu_ItemH" target="_parent" href="/?PageID=177" title="درباره ما"><span class=""></span>دربـــاره مـــا</a>
+                            <a class="Menu_ItemH" target="_parent" href="#" title="درباره ما"><span class=""></span>دربـــاره مـــا</a>
                             <ul>
                                 <li class="submenu-main">
-                                    <a class="submenu-item" target="_parent" href="http://tvto.alvan-uast.ir/?pageid=300" title="آشنایی با مرکز">آشنایی با مرکز</a>
+                                    <a class="submenu-item" target="_parent" href="/MenuContent/24" title="آشنایی با مرکز">آشنایی با مرکز</a>
                                 </li>
                             </ul>
                         </li>

@@ -18,6 +18,7 @@ namespace TVTOWebsite.Models
         }
 
         public virtual DbSet<Content> Contents { get; set; }
+        public virtual DbSet<MenuContent> MenuContents { get; set; }
         public virtual DbSet<Multimedium> Multimedia { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -50,8 +51,21 @@ namespace TVTOWebsite.Models
                 entity.Property(e => e.Title).HasMaxLength(500);
             });
 
+            modelBuilder.Entity<MenuContent>(entity =>
+            {
+                entity.ToTable("MenuContent");
+
+                entity.Property(e => e.Content).HasColumnType("ntext");
+
+                entity.Property(e => e.Name).HasMaxLength(200);
+            });
+
             modelBuilder.Entity<Multimedium>(entity =>
             {
+                entity.Property(e => e.Date)
+                    .HasColumnType("date")
+                    .HasDefaultValueSql("(getdate())");
+
                 entity.Property(e => e.Movie).HasMaxLength(50);
 
                 entity.Property(e => e.Music).HasMaxLength(50);

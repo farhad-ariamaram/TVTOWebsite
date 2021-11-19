@@ -12,5 +12,6 @@ namespace TVTOWebsite.Models
         public string Picture { get; set; }
         public string Music { get; set; }
         public string Movie { get; set; }
+        public DateTime Date { get; set; }
     }
 }

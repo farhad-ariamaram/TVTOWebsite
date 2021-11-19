@@ -1,5 +1,5 @@
-﻿@page "/Content/{Id}"
-@model TVTOWebsite.Pages.ContentModel
+﻿@page "/MenuContent/{Id}"
+@model TVTOWebsite.Pages.MenuContentModel
 @{
 }
 
@@ -736,28 +736,15 @@
         <table cellpadding="0" cellspacing="0" class="paneltable ">
             <tr>
                 <td colspan="3">
-
                     <table cellpadding="0" cellspacing="0" style="width: 100%;">
                         <tr>
                             <td id="ctl03_ctl01_tdTitle" class="panelheadLeft"></td>
-
                             <td class="panelhead">
-
                                 <table class="newsdate" cellpadding="0" cellspacing="0" border="0" width="100%" dir='rtl'>
                                     <tr>
                                         <td style="text-align: right;">
                                             <div class="opinion-div">
-                                                تاریخ
-                                                :
-                                                <span id="ctl03_ctl01_lblnewsdate">@Model.currentContent.Date</span>
-                                                &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
-                                                کد
-                                                :
-                                                <span id="ctl03_ctl01_lblnewsid">5048</span>
-                                                <div id="ctl03_ctl01_tdShortLink" class="Short_Link">
-                                                    لینک کوتاه
-                                                    <input name="ctl03$ctl01$txtShortLink" type="text" value="http://www.eatvto.ir/News/5048/" id="txtShortLink" class="shortlink" />
-                                                </div>
+                                                @(Model.currentMenuContent.Name)
                                             </div>
                                         </td>
                                     </tr>
@@ -775,7 +762,6 @@
                             <td class="panelleft"></td>
                             <td class="panelcenter">
                                 <table cellpadding="0" cellspacing="0" class="panelbody" width="100%">
-
                                     <tr>
                                         <td>
                                             <table class="sitefont" cellpadding="0" cellspacing="0" width="100%">
@@ -784,43 +770,8 @@
                                                         <table cellpadding="0" cellspacing="0" style="width: 100%">
                                                             <tr>
                                                                 <td class="opinion-td">
-                                                                    <div style="display: block">
-                                                                        <div id="ctl03_ctl01_borderimg" class="opinion-border">
-                                                                            <a class="highslide" href='/uploads/1/ArchivePicture/3278.jpg' onclick="return hs.expand(this)">
-                                                                                <img id="ctl03_ctl01_imgSubject" class="highslide" src="~/Uploads/Content/@(Model.currentContent.Picture).jpg" alt="پژوهش، ابزار کلیدی برای تحول در آموزش مهارت است" style="width:250px;border-width:0px;" />
-                                                                            </a>
-                                                                            <div class="highslide-caption">
-                                                                                <span class="highslide-t">
-                                                                                </span><br />
-                                                                                <span class="highslide-d"></span>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="Text_News">
-                                                                            <div id="ctl03_ctl01_DID" class="opinion-div-header">
-                                                                                <h3>
-                                                                                    <div class="News_Titr">
-                                                                                        <span id="ctl03_ctl01_lblheadTitle">@(Model.currentContent.Title)</span>
-                                                                                    </div>
-                                                                                </h3>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="opinion-div-intro">
-                                                                        <span id="ctl03_ctl01_lblIntroText">@(Model.currentContent.Abstract)</span>
-                                                                    </div>
-                                                                    <div class="opinion-div-fulltext-news">
-                                                                        <h2>
-                                                                            <span id="ctl03_ctl01_lblFullText" class="label">
-                                                                                <div style="text-align: justify;">
-                                                                                    <span style="font-size:18px;">
-                                                                                        @Html.Raw(Model.currentContent.Content1)
-                                                                                        <span dir="LTR"></span>
-                                                                                    </span><br />
-                                                                                    &nbsp;
-                                                                                </div>
-                                                                            </span>
-                                                                        </h2>
-                                                                        <br />
+                                                                    <div>
+                                                                        @Html.Raw(Model.currentMenuContent.Content)
                                                                     </div>
                                                                 </td>
                                                             </tr>
@@ -834,7 +785,6 @@
                                                             </tr>
                                                         </table>
                                                     </td>
-
                                                 </tr>
                                                 <tr>
                                                 </tr>
