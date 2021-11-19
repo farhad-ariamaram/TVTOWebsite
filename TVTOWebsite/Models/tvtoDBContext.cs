@@ -20,6 +20,7 @@ namespace TVTOWebsite.Models
         public virtual DbSet<Content> Contents { get; set; }
         public virtual DbSet<MenuContent> MenuContents { get; set; }
         public virtual DbSet<Multimedium> Multimedia { get; set; }
+        public virtual DbSet<User> Users { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -73,6 +74,19 @@ namespace TVTOWebsite.Models
                 entity.Property(e => e.Picture).HasMaxLength(50);
 
                 entity.Property(e => e.Text).HasMaxLength(500);
+            });
+
+            modelBuilder.Entity<User>(entity =>
+            {
+                entity.ToTable("User");
+
+                entity.Property(e => e.Password)
+                    .IsRequired()
+                    .HasMaxLength(50);
+
+                entity.Property(e => e.Username)
+                    .IsRequired()
+                    .HasMaxLength(50);
             });
 
             OnModelCreatingPartial(modelBuilder);

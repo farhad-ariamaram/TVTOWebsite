@@ -4,40 +4,15 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
   <ItemGroup>
-    <Folder Include="wwwroot\MPage\24\11\" />
-    <Folder Include="wwwroot\MPage\24\13\" />
-    <Folder Include="wwwroot\MPage\24\1\" />
-    <Folder Include="wwwroot\MPage\24\4\" />
-    <Folder Include="wwwroot\News\3621\" />
-    <Folder Include="wwwroot\News\5014\" />
-    <Folder Include="wwwroot\News\5015\" />
-    <Folder Include="wwwroot\News\5019\" />
-    <Folder Include="wwwroot\News\5028\" />
-    <Folder Include="wwwroot\News\5031\" />
-    <Folder Include="wwwroot\News\5034\" />
-    <Folder Include="wwwroot\News\5035\" />
-    <Folder Include="wwwroot\News\5036\" />
-    <Folder Include="wwwroot\News\5038\" />
-    <Folder Include="wwwroot\News\5039\" />
-    <Folder Include="wwwroot\News\5040\" />
-    <Folder Include="wwwroot\News\5042\" />
-    <Folder Include="wwwroot\News\5043\" />
-    <Folder Include="wwwroot\News\5044\" />
-    <Folder Include="wwwroot\News\5045\" />
-    <Folder Include="wwwroot\News\5046\" />
-    <Folder Include="wwwroot\News\5047\" />
-    <Folder Include="wwwroot\News\5048\" />
-    <Folder Include="wwwroot\News\5049\" />
-    <Folder Include="wwwroot\News\5050\" />
-    <Folder Include="wwwroot\News\5051\" />
-    <Folder Include="wwwroot\News\5052\" />
-    <Folder Include="wwwroot\News\5053\" />
-    <Folder Include="wwwroot\News\5054\" />
-    <Folder Include="wwwroot\News\5055\" />
-    <Folder Include="wwwroot\page\0\" />
-    <Folder Include="wwwroot\page\282\" />
-    <Folder Include="wwwroot\RssTopNews\CMS\" />
     <Folder Include="wwwroot\Uploads\elmikarbordi\" />
     <Folder Include="wwwroot\Uploads\fanihefei\" />
   </ItemGroup>
@@ -54,6 +29,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="System.Drawing.Common" Version="5.0.2" />
   </ItemGroup>
 
 </Project>

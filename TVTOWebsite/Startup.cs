@@ -26,6 +26,10 @@ namespace TVTOWebsite
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddSession(options =>
+            {
+                options.IdleTimeout = TimeSpan.FromMinutes(20);
+            });
             services.AddDbContext<tvtoDBContext>(options => options.UseSqlServer(Configuration.GetConnectionString("CS")));
         }
 
@@ -42,6 +46,8 @@ namespace TVTOWebsite
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
+            app.UseSession();
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
