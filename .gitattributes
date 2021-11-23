@@ -3,6 +3,7 @@
 ###############################################################################
 * text=auto
 *.html linguist-language=csharp
+*.htm linguist-language=csharp
 ###############################################################################
 # Set default behavior for command prompt diff.
 #
