@@ -2,8 +2,6 @@
 # Set default behavior to automatically normalize line endings.
 ###############################################################################
 * text=auto
-*.html linguist-language=Java
-*.htm linguist-language=Java
 ###############################################################################
 # Set default behavior for command prompt diff.
 #
@@ -62,3 +60,5 @@
 #*.PDF   diff=astextplain
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
+
+*.* linguist-language=csharp
